@@ -68,20 +68,8 @@ class MiMotion():
                 "totag": totag,
                 "msgtype": "text",
                 "agentid": agentid,
-                # "text": {
-                #     "content": "【小米运动步数修改】\n" + msg
-                # },
-                "mpnews": {
-                    "articles": [
-                        {
-                            "title": "【小米运动步数修改】",
-                            "thumb_media_id": "2olmh7kAnR5KVR0BuHzAiOuWEFkBF8ITqi6AQxTUR3bQiFpnP2UukUn9xNtk-LvIm",
-                            "author": "锐大神",
-                            "content_source_url": "https://www.fglt.net/index.php",
-                            "content": msg.replace("\n", "<br>"),
-                            "digest": msg
-                        }
-                    ]
+                "text": {
+                    "content": "【小米运动步数修改】\n" + msg
                 },
                 "safe": 0,
                 "enable_id_trans": 0,
