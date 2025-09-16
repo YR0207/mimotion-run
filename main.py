@@ -79,7 +79,7 @@ class MiMotion():
                             "author": "锐大神",
                             "content_source_url": "https://www.fglt.net/index.php",
                             "content": msg.replace("\n", "<br>"),
-                            "digest": msg,
+                            "digest": msg
                         }
                     ]
                 },
