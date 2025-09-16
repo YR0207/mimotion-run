@@ -68,9 +68,9 @@ class MiMotion():
                 "totag": totag,
                 "msgtype": "text",
                 "agentid": agentid,
-                "text": {
-                    "content": "【小米运动步数修改】\n" + msg
-                },
+                # "text": {
+                #     "content": "【小米运动步数修改】\n" + msg
+                # },
                 "mpnews": {
                     "articles": [
                         {
